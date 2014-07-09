@@ -1,0 +1,8 @@
+*.o
+*.so
+*.a
+*.tgz
+libzway
+config/zddx/*
+z-way-test_a
+z-way-test_so

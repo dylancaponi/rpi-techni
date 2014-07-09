@@ -1,0 +1,18 @@
+#0 <- DO NOT CHANGE
+#access point config
+
+#loopback adapter
+auto lo
+iface lo inet loopback
+
+#wired adapter
+iface eth0 inet dhcp
+
+#wireless adapter
+allow-hotplug wlan0
+
+iface wlan0 inet static
+  address 10.0.0.1
+  network 10.0.0.0
+  netmask 255.255.255.0
+  broadcast 10.0.0.255
